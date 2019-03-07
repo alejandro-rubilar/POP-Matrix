@@ -52,7 +52,7 @@ SynthDef(\saw, {arg freq=440, amp=0.3, pan=0, at=0.1, rel=0.5, out=0;
 
 // ruido blanco percusivo
 (
-SynthDef(\wn, {arg amp=0.3, pan=0, at=0.1, rel=0.5, out=0;
+SynthDef(\wn, {arg amp=0.3, pan=0, at=0.1, rel=0.5, out=0; 
 	var sen, paneo, env;
 
 	sen = WhiteNoise.ar(amp);
